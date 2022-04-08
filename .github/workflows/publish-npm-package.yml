@@ -76,8 +76,8 @@ jobs:
 
       - run: npm ci
 
-      - name: Update openblock-l10n
-        run: npm i --save openblock-l10n@latest
+      - name: Update wiinblock-l10n
+        run: npm i --save wiinblock-l10n@latest
 
       - name: Sync translations
         run: |
